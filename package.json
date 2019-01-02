@@ -1,0 +1,22 @@
+{
+  "name": "saturnrocket-server",
+  "version": "1.0.0",
+  "description": "server for the Saturn Rocket by LAPS",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "author": "Luan Ademi",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "ctrl-c": "^2.3.0",
+    "mosca": "^2.8.3",
+    "ora": "^3.0.0",
+    "signale": "^1.3.0"
+  },
+  "devDependencies": {
+    "cli-clear": "^1.0.4"
+  }
+}
